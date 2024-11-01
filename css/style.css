@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+
+}
+
+h2 {
+  color: #00274C;
+  text-align: center;
+}
+
+form {
+  background-color: #00274C;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  color: white;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+input[type="submit"] {
+  background-color: #FFCB05;
+  color: #00274C;
+  padding: 10px;
+  width: 100%;
+
+}
+
+/*---------*/
+form {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Add shadow for form */
+}
+
+fieldset {
+  border: 1px solid #FFCB05;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+legend {
+  font-weight: bold;
+  color: white;
+  padding: 0 10px;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="date"]:hover,
+input[type="number"]:hover {
+  background-color: #ecb2b2;
+}
+
+.radio-group {
+
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.radio-group p {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="submit"] {
+  transition: background-color 0.3s ease;
+  /* Smooth transition effect */
+}

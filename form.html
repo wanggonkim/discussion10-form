@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <form action="https://formspree.io/f/xgveakdd" method="post">
+
+        <fieldset>
+            <legend>Sign-Up for Weekly Newsletter</legend>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" placeholder="ex. John" name="form" required>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" placeholder="ex. Doe" name="last-name" required>
+
+            <label for="email">Email: </label>
+            <input type="text" id="email" placeholder="ex. Johndoe@email.com" name="email">
+
+            <label for="dateofbirth">Date of Birth: </label>
+            <input type="text" id="dateofbirth" placeholder="mm/dd/yyyy" name="dateofbirth">
+
+            <div class="radio-group">
+                <p>What type of Asian cuisine do you like?</p>
+                <input type="radio" id="korean" name="available-time" value="korean">
+                <label for="korean">Korean</label>
+
+                <input type="radio" id="chinese" name="available-time" value="chinese">
+                <label for="chinese">Chinese</label>
+
+                <input type="radio" id="japanese" name="available-time" value="japanese">
+                <label for="japanese">Japanese</label>
+
+                <input type="radio" id="indian" name="available-time" value="indian">
+                <label for="indian">Indian</label>
+
+                <input type="radio" id="thai" name="available-time" value="thai">
+                <label for="thai">Thai</label>
+
+                <input type="radio" id="vietnamese" name="available-time" value="vietnamese">
+                <label for="vietnamese">Vietnamese</label>
+            </div>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
